@@ -7,6 +7,7 @@ print("Pies a centímetros---5")
 print("Centímetros a pies---6")
 print("Yardas a metros---7")
 print("Ernestos a Hubies---8")
+print("Celsius a Farenheith---9")
 n=int(input("Elija la opcción que usted prefiera"))
 print("----------------------------")
 if n ==1:
@@ -42,3 +43,7 @@ if n ==8:
     a=float(input("Ingrese Ernestos:"))
     b=float(a*100/1)
     print(b,"Hubies")
+if n ==9:
+    a=float(input("Ingrese grados Celsius:"))
+    b=float((a-32)*(5/9))
+    print(b,"Grados Farenheit")
