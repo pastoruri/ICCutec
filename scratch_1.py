@@ -6,6 +6,7 @@ print("Litros a metros cúbicos---4")
 print("Pies a centímetros---5")
 print("Centímetros a pies---6")
 print("Yardas a metros---7")
+print("Ernestos a Hubies---8")
 n=int(input("Elija la opcción que usted prefiera"))
 print("----------------------------")
 if n ==1:
@@ -37,3 +38,7 @@ if n ==7:
     c=float(input("Ingrese yardas:"))
     d=float(c*0.9144)
     print(d, "metros")
+if n ==8:
+    a=float(input("Ingrese Ernestos:"))
+    b=float(a*100/1)
+    print(b,"Hubies")
