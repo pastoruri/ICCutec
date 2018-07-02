@@ -1,4 +1,4 @@
-#Conversión de unidades
+#Conversión de unidades: by Rodrigo C and Kurt O
 print("metros por segundo a kilómetros por hora---1")
 print("kilómetros por hora a metros por segundo---2")
 print("metros cúbicos a Litros--3")
