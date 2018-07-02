@@ -5,6 +5,7 @@ print("metros cúbicos a Litros---3")
 print("Litros a metros cúbicos---4")
 print("Pies a centímetros---5")
 print("Centímetros a pies---6")
+print("Yardas a metros---7")
 n=int(input("Elija la opcción que usted prefiera"))
 print("----------------------------")
 if n ==1:
@@ -32,3 +33,7 @@ if n ==6:
     c=float(input("Ingrese cantidad de centímetros:"))
     d=float(c/30.48)
     print(d, "pies")
+if n ==7:
+    c=float(input("Ingrese yardas:"))
+    d=float(c*0.9144)
+    print(d, "metros")
