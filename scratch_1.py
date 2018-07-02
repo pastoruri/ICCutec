@@ -1,8 +1,8 @@
 #Conversión de unidades
-print("m/s a km/h---1")
-print("km/h a m/s---2")
-print("m3 a Litros--3")
-print("Litros a m3--4")
+print("metros por segundo a kilómetros por hora---1")
+print("kilómetros por hora a metros por segundo---2")
+print("metros cúbicos a Litros--3")
+print("Litros a metros cúbicos--4")
 n=int(input("Elija la opcción que usted prefiera"))
 print("----------------------------")
 if n ==1:
