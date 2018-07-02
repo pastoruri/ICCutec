@@ -6,18 +6,18 @@ print("Litros a metros cúbicos--4")
 n=int(input("Elija la opcción que usted prefiera"))
 print("----------------------------")
 if n ==1:
-    a=float(input("Ingrese cantidad de m/s:"))
+    a=float(input("Ingrese metros por segundo:"))
     b=float(a*3.6)
     print(b,"kilómetros por hora")
 elif n ==2:
-    c=float(input("Ingrese cantidad de km/h:"))
+    c=float(input("Ingrese kilómetros por hora:"))
     d=float(c/3.6)
     print(d, "metros por segundo")
 if n ==3:
-    c=float(input("Ingrese cantidad de m3:"))
+    c=float(input("Ingrese metros cúbicos:"))
     d=float(c*1000)
     print(d, "litros")
 if n ==4:
-    c=float(input("Ingrese cantidad de litros:"))
+    c=float(input("Ingrese litros:"))
     d=float(c/1000)
     print(d, "metros cúbicos")
