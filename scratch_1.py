@@ -3,7 +3,7 @@ print("m/s a km/h---1")
 print("km/h a m/s---2")
 print("m3 a Litros--3")
 print("Litros a m3--4")
-n=int(input("Ingrese la opción deseada:"))
+n=int(input("Elija la opcción que usted prefiera"))
 print("----------------------------")
 if n ==1:
     a=float(input("Ingrese cantidad de m/s:"))
